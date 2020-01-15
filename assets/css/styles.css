@@ -318,6 +318,31 @@ a.dotted-link:hover {
 	color: #5f6b77;
 }
 
+
+.blog .item .title {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	line-height: 1.5;
+}
+
+.blog .item .title .place {
+	color: #999;
+	font-weight: normal;
+}
+
+.blog .item .title .place a {
+	color: #999;
+}
+
+.blog .item .title .place a:hover {
+	color: #666666;
+}
+
+.blog .item .title .year {
+	color: #999;
+	font-weight: normal;
+}
 .experience .item {
 	margin-bottom: 30px;
 }
@@ -346,7 +371,32 @@ a.dotted-link:hover {
 	color: #999;
 	font-weight: normal;
 }
+// comment https://codepen.io/klamping/pen/xGZMEm?editors=110
+.books {
+	display: flex;
+	justify-content: flex-start;
+}
+.books .item {
+	background-color: #f1f1f1;
+	width: 100px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
 
+.flex-container > div {
+  background-color: #e0ddd5;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 .info .svg-inline--fa {
 	margin-right: 15px;
 	color: #ccd1d6;
